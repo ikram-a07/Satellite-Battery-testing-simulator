@@ -1,7 +1,9 @@
 SUMMARY:
+
 A java- based console simulator that evaluates battery readings and identifies potential anomalies using pre-defined operating thresholds.
 
 PROJECT OVERVIEW:
+
 The Satellite Battery tester simulates a basic battery health check for a satellite system.
 It accepts voltage, current, temperature and charge readings, evaluates each value against predefined thresholds ( which were determined through research) and produces an individual status for each measurement alongside an overall test result.
 
@@ -16,6 +18,7 @@ FEATURES:
 - Displays the results in a formatted console report
 
 TECHNOLOGIES USED:
+
 Java - program logic and decision-making
 
 KEY CONCEPTS:
@@ -25,6 +28,7 @@ KEY CONCEPTS:
 - Basic anomaly detection and error identification
 
 DATA SOURCES AND ASSUMPTIONS:
+
 For the predetermined thresholds for each measurement, it was important for me to use values that reflected real-world data.
 
 This range was determined from an average operating voltage range cited in ‘Nasa’s - Energy Storage Technologies for Future Planetary Science Missions’ document. 
@@ -35,10 +39,12 @@ https://science.nasa.gov/wp-content/uploads/2023/09/Energy_Storage_Tech_Report_F
 ( Page 26 - Table 3-4. SOP large cell Li-ion batteries used in NASA missions )
 
 TESTING:
+
 The simulator was tested using 11 test cases to check its behaviour across different combinations of readings and outcomes, including warning and failure conditions.
 This helped verify that the overall result accurately reflects the individual measurement statuses.
 
 WHAT I LEARNED:
+
 Through this project, I was able to develop my java skills and learn how to apply conditional logic, work with boolean variables and collect user input. 
 I also developed a greater understanding of how predefined thresholds can be used to identify unusual readings and how testing different input combinations helps reveal and fix logical errors.
 
